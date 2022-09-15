@@ -1,4 +1,4 @@
-import React, { FormEventHandler, MouseEventHandler, useEffect, useState, useLayoutEffect, useRef, ElementType, useCallback } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 // COMPONENTS
 import { TableMui } from '@/components/table-mui'
@@ -6,7 +6,7 @@ import { Modal } from '@/components/modal'
 import { Controller } from '@/components/controller'
 
 // // SERVICES
-import { petApi } from '../functions/pet.api'
+import { petApi } from './api/pet.api'
 
 // LIBRARIES
 import { useQuery, useMutation } from "react-query";
